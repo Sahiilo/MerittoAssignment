@@ -1,0 +1,209 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: #312a8f;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .cta-btn {
+    background: #f8b400;
+    color: #333;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+  }
+  
+  .cta-btn:hover {
+    background: #f89c00;
+  }
+  
+  /* Features Section */
+  .features {
+    padding: 50px 20px;
+    text-align: center;
+    background: #f4f4f4;
+  }
+  
+  .features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .feature-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .feature-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .feature-card p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Testimonials Section */
+  .testimonials {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .testimonials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .testimonial-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .testimonial-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 45%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial-card p {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-card span {
+    font-weight: bold;
+    color: #2a8b8f;
+  }
+  
+  /* Pricing Section */
+  .pricing {
+    padding: 50px 20px;
+    text-align: center;
+    background: #312a8f;
+    color: white;
+  }
+  
+  .pricing h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .pricing-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .pricing-card {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    width: 30%;
+    color: #333;
+  }
+  
+  .pricing-card h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .pricing-card p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  .pricing-card .cta-btn {
+    background: #f8b400;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1rem;
+  }
+  
+  .pricing-card .cta-btn:hover {
+    background: #f89c00;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2rem;
+    }
+  
+    .cta-btn {
+      font-size: 1rem;
+      padding: 12px 25px;
+    }
+  
+    .feature-cards, .testimonial-cards, .pricing-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .feature-card, .testimonial-card, .pricing-card {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+  
+    .pricing-card {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero h1 {
+      font-size: 1.5rem;
+    }
+  
+    .cta-btn {
+      font-size: 1rem;
+      padding: 10px 20px;
+    }
+  
+    .feature-card, .testimonial-card, .pricing-card {
+      width: 90%;
+    }
+  }
+  
